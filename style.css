@@ -1,0 +1,113 @@
+.navbar {
+  background-color: pink;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+  color: black;
+  margin-right: 30px;
+  font-size: 50;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.page1 {
+  height: 700px;
+  background-color: rgb(200, 226, 236);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.kotak {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(157, 255, 0);
+}
+.page2 {
+  height: 700px;
+  background-color: rgb(22, 209, 209);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lingkaran {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(255, 0, 212);
+  border-radius: 1000px;
+}
+.page3 {
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  height: 700px;
+}
+.page4 {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  background-color: fuchsia;
+}
+.page4 .baris1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.page4 .baris2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.page4 .kotak {
+  margin-right: 10px;
+}
+.page5 {
+  background-color: indianred;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 800px;
+  justify-content: center;
+}
+.page5 .kotak {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page5 .kotakKecil {
+  height: 120px;
+  width: 120px;
+  background-color: rgb(247, 87, 207);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+.page5 .kotakKecilKali {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  display: flex;
+}
+.page6 {
+  background-color: deeppink;
+  font-size: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page6 p {
+  justify-content: center;
+  display: flex;
+}
